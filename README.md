@@ -1,20 +1,17 @@
-# Chrome Puppet Module for Boxen
+# BEAST Puppet Module for Boxen
 
-Install [Google Chrome](), an adequate web browser.
+Install [BEAST](https://code.google.com/p/beast-mcmc/), a software package for evolutionary sequence analysis and Bayesian phylogenetics.
 
 ## Usage
 
 ```puppet
-# from the stable channel
-include chrome
-
-# from the dev channel
-include chrome::dev
+include beast
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
+* `java`
 
 ## Development
 
