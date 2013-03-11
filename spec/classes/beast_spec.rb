@@ -2,9 +2,9 @@ require 'spec_helper'
 
 describe 'beast' do
   it do
-    should contain_package('BEAST').with({
+    should contain_package('beast_1_7_5').with({
       :provider => 'appdmg',
-      :source   => 'https://beast-mcmc.googlecode.com/files/BEAST%20v1.7.5.dmg',
+      :source   => 'https://raw.github.com/trvrb/puppet-beast/0.0.4/files/beast_v1.7.5.dmg',
     })
   end
 end
